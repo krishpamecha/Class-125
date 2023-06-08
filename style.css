@@ -1,0 +1,49 @@
+body
+{
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading
+{
+    font-size: 20px;
+    width:100%;
+    margin:5px;
+    box-shadow: 5px 5px 30px rgb(255, 0, 0);
+    color: black;
+}
+.note
+{
+    font-size: 17px;
+    color: crimson;
+    font-weight: bolder;
+}
+.copy_right_footer
+{
+    position: fixed;
+    color: whitesmoke;
+    bottom: 5px;
+    background-color: rgb(81, 104, 0);
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+}
+canvas
+{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px rgb(0, 225, 255);
+    -webkit-box-reflect: below;   
+    margin-top: 30px; 
+}
+video
+{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px rgb(0, 225, 255);
+    margin-left: 100px;
+    margin-top: -5px;
+    -webkit-box-reflect: below;   
+}
